@@ -1,0 +1,69 @@
+    .right{
+        width: 87%;
+        height: 895px;
+        /*background: lightseagreen;*/
+        float: right;
+        border-bottom: 1px solid black;
+        border-right: 1px solid black;
+    }
+    .right-top{
+        width: 100%;
+        height: 30px;
+        border-bottom: 1px solid black;
+        background: rgb(238,238,238);
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .right-content{
+        width: 95%;
+        height: 680px;
+        margin-top: 30px;
+        margin-left: 30px;
+        padding-top: 20px;
+        border: 1px solid lightgray;
+    }
+    .right-content-info{
+        height: 680px;
+        padding-left: 300px;
+        /*background: lawngreen;*/
+
+    }
+    .group{
+        height: 50px;
+        width: 100%;
+        /*background: lightseagreen;*/
+        margin-bottom: 7px;
+        float: left;
+    }
+    .group-label{
+        height: 50px;
+        width: 15%;
+        /*background: lawngreen;*/
+        float: left;
+    }
+    .group-label span{
+        line-height: 50px;
+        font-size: 15px;
+        margin-right: 10px;
+        float: right;
+    }
+    .group input{
+        margin-top: 7px;
+        width: 200px;
+        height: 35px;
+    }
+    .group-sel select{
+        margin-top: 7px;
+        width: 200px;
+        height: 35px;
+    }
+    .group textarea{
+        width: 400px;
+        height: 100px;
+        resize:none;
+    }
+    .right-content-footer{
+        height: 50px;
+        margin-left: 600px;
+        /*background:lightgray;*/
+    }

@@ -1,0 +1,95 @@
+    .main{
+        /*margin-bottom: 80px;*/
+    }
+    /*.top,.nav-glass .nav-menu{*/
+    /*background-image: url(../pic/background/clound.png);*/
+    /*!*background-attachment:local;*!*/
+    /*background-repeat: no-repeat;*/
+    /*!*background-size: cover;*!*/
+    /*}*/
+    .top{
+        height: 160px;
+        width: 100%;
+        max-width: 2000px;
+        margin: 0 auto;
+        /*background: #269abc;*/
+    }
+    .photo{
+        width: 100%;
+        max-width: 2000px;
+        margin: 0 auto;
+        height: 86px;
+        /*background: lightseagreen;*/
+        background: #00a0d8;
+    }
+    .photo img{
+        margin-left: 510px;
+        width: 980px;
+        height: 106px;
+    }
+    .nav{
+        height: 45px;
+        border-bottom: 2px  solid rgba(225,225,225,.1);
+        box-shadow: 0 2px 1px rgba(0,0,0,.5);
+        position: relative;
+    }
+    .nav-glass{
+        height: 45px;
+        width: 100%;
+        filter: blur(5px);
+        position: absolute;
+        background-color: hsla(0,0%,100%,.6);
+    }
+    .nav-menu{
+        height: 40px;
+        width: 75%;
+        position: absolute;
+        /*background-color: gold;*/
+
+    }
+    .nav-menu-left{
+        height: 40px;
+        position: absolute;
+        /*background: #5bc0de;*/
+        width: 30%;
+        float: left;
+    }
+    .nav-menu-left ul li{
+        height:40px;
+        list-style-type: none;
+        float: left;
+        margin-left: 20px;
+        line-height:40px;
+        font-size: 12px;
+    }
+    .nav-menu-right{
+        height: 40px;
+        width: 600px;
+        /*position: absolute;*/
+        /*background: greenyellow;*/
+        float: right;
+    }
+    .nav-menu-right ul li {
+        height: 40px;
+        list-style-type: none;
+        float: right;
+        margin-left: 20px;
+        margin-bottom: 5px;
+        line-height: 50px;
+        font-size: 12px;
+    }
+    .nav-menu ul{
+        width: 60%;
+        /*margin-left:150px ;*/
+        /*margin-right: 150px;*/
+    }
+    .nav-menu  li>a{
+        text-decoration: none;
+        color:black;
+        text-align: center;
+    }
+    .nav-menu ul li:hover{
+        transition: transform  .5s ;
+        text-shadow: 5px 6px 5px rgba(0,0,238,0.5);
+
+    }

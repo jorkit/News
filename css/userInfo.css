@@ -1,0 +1,112 @@
+    .main2{
+        height:700px;
+        width: 100%;
+        max-width: 2000px;
+        margin: 0 auto;
+        /*background: lightseagreen;*/
+    }
+    .content{
+        height: 700px;
+        width: 980px;
+        /*background: chocolate;*/
+        margin-left: 510px;
+        border: 1px solid #dddddd;
+        border-radius: 5px;
+    }
+    .content-left{
+        height: 700px;
+        width: 150px;
+        /*background: lightblue;*/
+        border-right: 1px solid #dddddd;
+        float: left;
+    }
+    .content-left ul li{
+        width: 150px;
+        height: 50px;
+        text-align: center;
+    }
+    .content-left li>a{
+        width: 150px;
+        height: 50px;
+        color: black;
+    }
+    .active{
+        padding-top: 13px;
+        /*background: width:;*/
+        color:gray;
+    }
+    .content-right{
+        float: left;
+        height: 698px;
+        width: 828px;
+        /*background:lightcyan;*/
+    }
+    .content-right-top{
+        height: 47px;
+        width: 828px;
+        /*background: lightpink;*/
+        border-bottom: 1px solid #dddddd;
+        font-size: 15px;
+        line-height: 47px;
+        color: #00a1d7;
+    }
+    .info-list1{
+        height:200px;
+        padding:10px 0 10px 0;
+        width: 770px;
+        /*background: yellow;*/
+        margin-left: 30px;
+    }
+    .info-headphoto{
+        height: 182px;
+        width: 182px;
+        margin-left: 294px;
+        /*background: lightseagreen;*/
+        border: 1px solid lightskyblue;
+        border-radius: 90px;
+    }
+    .info-line{
+        height: 400px;
+        width: 770px;
+        /*background: lightsalmon;*/
+        margin-left: 30px;
+        border-top: 1px solid #dddddd;
+        padding-top: 30px;
+    }
+    .info-list2{
+        height: 300px;
+        width: 600px;
+        /*background: lightblue;*/
+        float: left;
+    }
+    .info-user{
+        height: 30px;
+        width: 100%;
+        /*background: lightseagreen;*/
+        margin-bottom: 20px;
+    }
+    .info-lab{
+        height: 30px;
+        width: 120px;
+        /*background: lightpink;*/
+        padding-right: 20px;
+        text-align: right;
+        line-height: 30px;
+        float: left;
+    }
+    .info-user-content{
+        height: 30px;
+        width: 480px;
+        /*background: lightgreen;*/
+        float: left;
+        line-height: 30px;
+        color: gray;
+    }
+    .info-list3{
+        height: 35px;
+        width: 100px;
+        float: left;
+        margin-left: 30px;
+        padding-left: 20px;
+        /*background: lightseagreen;*/
+    }

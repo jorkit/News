@@ -1,0 +1,53 @@
+    html{
+        width: 100%;
+        height: 100%;
+        overflow-x:hidden;
+        overflow-y:auto;
+    }
+    body{
+        width: 100%;
+        min-height: 100%;
+    }
+    .bg{
+        background:url(../common/background/bg.png) no-repeat center;
+        background-size: cover;
+        overflow: hidden;
+    }
+    .turn{
+        margin: 200px auto 0;
+        min-height: 420px;
+        max-width: 600px;
+        padding: 40px;
+        background-color: #ffffff;
+        border-radius: 4px;
+        /*overflow-x: hidden;*/
+        box-sizing: border-box;
+    }
+    .turn-top{
+        margin: 10px 0 0 -58px;
+        height: 50px;
+        width:520px;
+        background: #00a0d8;
+
+    }
+    .turn-top span{
+        line-height: 50px;
+        font-size: 20px;
+        color: white;
+        margin-left: 100px;
+    }
+    .darkwrap{
+        background: url(../common/background/aiwrap.png);
+        background-size: cover;
+        width: 18px;
+        height: 15px;
+        margin: 0 0 20px -58px;
+        position: relative;
+    }
+    .content{
+        width: 420px;
+        height: 200px;
+        margin-left: 42px;
+        padding: 80px 0 0 130px ;
+        border: 1px solid #dddddd;
+    }

@@ -1,0 +1,86 @@
+    .right{
+        width: 87%;
+        height: 895px;
+        /*background: lightseagreen;*/
+        float: right;
+        border-bottom: 1px solid black;
+        border-right: 1px solid black;
+    }
+    .right-top{
+        width: 100%;
+        height: 30px;
+        border-bottom: 1px solid black;
+        background: rgb(238,238,238);
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .right-search{
+        width: 100%;
+        height: 60px;
+        border-bottom: 1px solid black;
+        background: rgb(238,238,238);
+    }
+    .right-search label{
+        line-height: 55px;
+        font-size: 15px;
+        margin-left: 100px;
+        float: left;
+    }
+    .right-search input{
+        width: 250px;
+        height: 30px;
+        float: left;
+        margin-top: 15px;
+        margin-right: 5px;
+        border-radius:8px;
+    }
+    .right-search button{
+        margin-top: 15px;
+        width:60px;
+        height: 30px;
+        line-height: 19px;
+        border-radius:8px;
+    }
+    .right-content{
+        width: 100%;
+        height: 617px;
+        /*background: lightgreen;*/
+    }
+    .right-content-top{
+        width: 100%;
+        height: 50px;
+        /*background: lightgreen;*/
+        padding-left: 30px;
+    }
+    .right-content-top a{
+        text-align: left;
+        line-height: 50px;
+        font-size: 15px;
+        color: black;
+        margin-right: 20px;
+    }
+    .right-content-top span{
+        line-height: 40px;
+        font-size: 16px;
+        margin-right: 5px;
+    }
+    .right-content-table{
+        width: 95%;
+        margin-left: 30px;
+    }
+    .right-content-table thead tr th{
+        vertical-align: middle;
+        text-align: center;
+        /*line-height: 45px;*/
+    }
+    .right-content-table tbody  tr td{
+        text-align: center;
+    }
+    .right-content-table span{
+        margin-right: 10px;
+    }
+    .right-content-table tbody tr td span>a{
+        color: black;
+        font-size: 15px;
+        margin-left: 5px;
+    }
